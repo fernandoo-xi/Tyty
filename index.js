@@ -1,19 +1,20 @@
 
 setTimeout(function() {
-    let div = document.createElement('div');
+    const div = document.createElement('div');
+    const divStyle = div.style;
 
-    div.style.position = 'relative';
-    div.style.top = '35vh';
-    div.style.left = '0vh';
-    div.style.height = "99%";
-    div.style.width = "99%";
-    div.style.display = "flex";
-    div.style.justifyContent = 'center';
-    div.style.fontSize = "150px";
-    div.style.fontFamily = "Brush Script MT, Brush Script Std, cursive";
-    div.style.fontWeight = "bold";
+    divStyle.position = 'relative';
+    divStyle.top = '35vh';
+    divStyle.left = '0vh';
+    divStyle.height = "99%";
+    divStyle.width = "99%";
+    divStyle.display = "flex";
+    divStyle.justifyContent = 'center';
+    divStyle.fontSize = "150px";
+    divStyle.fontFamily = "Brush Script MT, Brush Script Std, cursive";
+    divStyle.fontWeight = "bold";
     div.innerHTML = 'ТЫ ПИДОР';
-    div.style.color = 'white';
+    divStyle.color = 'white';
 
     document.body.append(div);
 }, 2150);
