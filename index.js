@@ -11,7 +11,7 @@ setTimeout(function() {
     divStyle.display = "flex";
     divStyle.justifyContent = 'center';
     divStyle.fontSize = "150px";
-    divStyle.fontFamily = "Comic Sans MS, cursive";
+    divStyle.fontFamily = "Georgia, serif";
     divStyle.fontWeight = "bold";
     div.innerHTML = 'ТЫ ПИДОР';
     divStyle.color = 'white';
