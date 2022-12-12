@@ -46,7 +46,7 @@ while(delay < 60000) {
         id++;
     };
 
-    delay = delay + 2000;
+    delay = delay + 1000;
 
     for(let i = delay; i < delay + 1140;){
         (function(i, id) {
